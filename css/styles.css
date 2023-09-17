@@ -1,10 +1,11 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    background: #FFF;
 }
 
 h1, h2, h3 {
@@ -21,7 +22,6 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
-    font-style: normal;
 }
 
 .header {
@@ -30,10 +30,10 @@ a {
 
 .logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -62,6 +62,7 @@ a {
 }
 
 .address {
+    font-style: normal
 }
 
 .address-list {
@@ -94,14 +95,13 @@ a {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     color: #FFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
     border: none;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -131,6 +131,7 @@ a {
 }
 
 .team {
+    background: #F4F4FD;
 }
 
 .team-title {
@@ -139,12 +140,14 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .team-list {
 }
 
 .team-list-item {
+    background: #FFF;
 }
 
 .team-list-avatar {
@@ -169,6 +172,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 
 .portfolio-list {
